@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+html {
+	height: 100%;
+	background: url('../img/ie_bodybg.png') left top no-repeat;
+}
+.hover-css #site_title a, 
+.hover-anims #site_title a, 
+.hover-anims #site_title span {
+	background: url('../img/ie_logo.png') no-repeat;
+	background-position: center -210px ;
+	text-indent: -9999px;
+}
+
+#page_top {
+	position: inherit;
+}
+#page_top #history h2 {
+	margin-top: 6em;
+	width: 100%;
+}

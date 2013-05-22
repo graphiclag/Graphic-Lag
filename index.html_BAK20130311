@@ -1,0 +1,167 @@
+<?php include('header.php'); ?>
+
+<!-- head (ページ個別適用) -->
+
+	<title>Graphic Lag Website</title>
+
+	<!-- ▼META Setting -->
+	<meta name="keywords" content="Graphi Lag,Band,Osaka,Instrumental,グラフィック ラグ,バンド,大阪,インスト">
+	<meta name="description" content="大阪で活動するインストゥルメンタル・バンド Graphic Lag のサイト トップページ / Entrance Page">
+
+	<!-- ▼LINK Setting -->
+	<link rel="next" href="about.html" title="次のページ">
+
+	<!-- ▼Additional CSS -->
+	<link rel="stylesheet" href="css/top.css" media="screen">
+	<link rel="stylesheet" href="css/coin-slider-styles.css" media="screen">
+	
+	
+	<script type="text/javascript" src="js/coin-slider.min.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function() {
+		$('#coin-slider').coinslider({
+			width: 870,
+			height: 560,
+			effect: 'straight',
+			navigation: true,
+			delay: 5000,
+			sDelay: 30,
+			spw: 6,
+			sph: 6
+		});
+	});
+	</script>
+
+
+<!-- /head -->
+
+<?php include('menu.php'); ?>
+
+<article id="page_top">
+
+	<header id="top_header" class="shadowBox">
+	<!--[if lt IE 10]>
+		<h1 style="font-size: 300%" class="color_red">ATTENTION</h1>
+		<p><strong class="color_red">このサイトは、<a href="http://www.google.co.jp/chrome/intl/ja/landing_ff.html">Google Chrome</a>, <a href="http://mozilla.jp/firefox/">Firefox</a>, Safari
+			 いずれかでの表示のみ、正式対応しております。<br>
+			Internet Explorerをご利用の方は、使用するブラウザを上記いずれかに変更していただくか、<br>
+			<a href="http://code.google.com/intl/ja/chrome/chromeframe/">Chrome Frame Plug-in</a> (無料) をインストールして頂く事をお勧め致します。</strong>
+		</p>
+	<![endif]-->
+	
+	<div id="coin-slider">
+		<img src="img/topnews1.jpg" >
+		<img src="img/topnews2.jpg" >
+		<img src="img/topnews3.jpg" >
+		<img src="img/topphoto.jpg" >
+	</div>
+	
+	</header>
+
+	<section id="history">
+	<h2 lang="en">Update Information<span lang="ja">更新情報</span></h2>
+	<table>
+	<tr>
+	 <th>2013.03.02 <span class="color_blue">SAT</span></th>
+	 <td><ul>
+	  <li><strong>バンドよりお知らせ</strong> (<a href="news.html">NEWS</a>)</li>
+	 </ul><td>
+	</tr>
+	<tr>
+	 <th>2013.02.01 FRI</th>
+	 <td><ul>
+	  <li>03/09 主催イベント「LINK 2nd」開催。新音源「Amazon」無料配信開始。詳細は<a href="news.html">NEWS</a>にて。</li>
+	  <li><a href="shows.html">SHOWS</a>, <a href="music.html">MUSIC</a> up</li>
+	 </ul><td>
+	</tr>
+	<tr>
+	 <th>2012.11.30 FRI</th>
+	 <td><ul>
+	  <li>SHOWS up (<a href="shows.html">SHOWS</a>)</li>
+	 </ul><td>
+	</tr>
+<!-- 
+	<tr>
+	 <th>2012.10.25 THU</th>
+	 <td><ul>
+	  <li>SHOWS up (<a href="shows.html">SHOWS</a>)</li>
+	 </ul><td>
+	</tr>
+	<tr>
+	 <th>2012.09.23 <span class="color_red">SUN</span></th>
+	 <td><ul>
+	  <li>SHOWS up (<a href="shows.html">SHOWS</a>) ― 12/01のイベント詳細追加。その他出演ライブ情報追加。</li>
+	 </ul><td>
+	</tr>
+	<tr>
+	 <th>2012.09.17 <span>MON</span></th>
+	 <td><ul>
+	  <li>SHOWS up (<a href="shows.html">SHOWS</a>) ― uramadoとの共同イベント、12/01開催。出演アーティスト発表。</li>
+	 </ul><td>
+	</tr>
+	<tr>
+	 <th>2012.08.03 <span>FRI</span></th>
+	 <td><ul>
+	  <li>New Demo Track &ldquo;Cosmo&rdquo; is available. (PC・SmartPhone) (<a href="music.html">MUSIC</a>)</li>
+	 </ul></td>
+	</tr>
+
+	<tr>
+	 <th>2012.08.03 <span>FRI</span></th>
+	 <td><ul>
+	  <li><strong>Graphic Lag &amp; Pelori (F.I.B) presents &ldquo;LINK extra&rdquo; 9/1開催決定。</strong><br>
+	  <strong>middle9 presents Room Special 3DAYS! 出演決定。</strong> (<a href="shows.html">SHOWS</a>)</li>
+	  <li><strong>新音源 &ldquo;Cosmo&rdquo; の無料配信開始。(PC・スマートフォンのみ)</strong> (<a href="music.html">MUSIC</a>)</li>
+	 </ul></td>
+	</tr>
+	<tr>
+	 <th>2012.07.06 <span>FRI</span></th>
+	 <td><ul>
+	  <li>出演ライブ情報更新(<a href="shows.html">SHOWS</a>)</li>
+	 </ul></td>
+	</tr>
+	<tr>
+	 <th>2012.05.01 <span>TUE</span></th>
+	 <td><ul>
+	  <li>ニュース・出演ライブ情報更新(<a href="news.html">NEWS</a>, <a href="shows.html">SHOWS</a>)</li>
+	 </ul></td>
+	</tr>
+	<tr>
+	 <th>2012.04.17 <span>TUE</span></th>
+	 <td><ul>
+	  <li>middle9 presents &ldquo;Room special pre event&rdquo; 出演決定(<a href="news.html">NEWS</a>) 出演ライブ情報追加(<a href="shows.html">SHOWS</a>)</li>
+	 </ul></td>
+	</tr>
+	<tr>
+	 <th>2012.03.14 <span>WED</span></th>
+	 <td><ul>
+	  <li>3/11開催 Graphic Lag presents &ldquo;LINK&rdquo; 映像アーカイブ情報掲載(<a href="news.html">NEWS</a>) 出演ライブ情報追加(<a href="shows.html">SHOWS</a>)</li>
+	 </ul></td>
+	</tr>
+
+	<tr>
+	 <th>2012.02.02 <span>THU</span></th>
+	 <td><ul>
+	  <li>プレゼント企画「音源ダウンロードでイベントご招待」情報掲載(<a href="music.html">NEWS</a>)</li>
+	  <li>イベント情報更新(<a href="shows.html">SHOWS</a>) ギャラリー更新(<a href="gallery.html">GALLERY</a>)</li>
+	 </ul></td>
+	</tr>
+	<tr>
+	 <th>2012.01.22 <span class="color_red">SUN</span></th>
+	 <td><ul>
+	  <li>主催企画イベント詳細決定(<a href="news.html">NEWS</a>) ライブ情報更新(<a href="shows.html">SHOWS</a>)</li>
+	 </ul></td>
+	</tr>
+	<tr>
+	 <th>2011.06.00 <span>XXX</span></th>
+	 <td><ul>
+	  <li>初音源・無料配信開始(<a href="music.html">MUSIC</a>)</li>
+	 </ul></td>
+	</tr>
+-->
+	</table>
+	</section>
+
+</article>
+
+<?php include('footer.php'); ?>

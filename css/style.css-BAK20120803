@@ -1,0 +1,693 @@
+@charset 'utf-8';
+/* 
+---------------------------------------------------------------------------------------------------- 
+■ YUI.css  | 11px: 85% | 21px:162% | 31px:235% | 41px:314% |
+| フォント  | 12px: 93% | 22px:167% | 32px:244% | 42px:322% |
+| 相対指定  | 13px:100% | 23px:174% | 33px:251% | 43px:329% |
+| px→%変換 | 14px:108% | 24px:182% | 34px:260% | 44px:337% |
+|-----------| 15px:116% | 25px:189% | 35px:267% | 45px:345% |
+| 06px: 45% | 16px:123% | 26px:197% | 36px:275% | 46px:351% |
+| 07px: 51% | 17px:131% | 27px:204% | 37px:283% | 47px:360% |
+| 08px: 60% | 18px:139% | 28px:213% | 38px:290% | 48px:368% |
+| 09px: 68% | 19px:147% | 29px:220% | 39px:298% | 49px:375% |
+| 10px: 77% | 20px:154% | 30px:228% | 40px:306% | 50px:383% |
+---------------------------------------------------------------------------------------------------- 
+■ 01. 基本設定
+---------------------------------------------------------------------------------------------------- */
+
+html {
+	height: 100%;
+	background: url('../img/body_bg.png') top left no-repeat, 
+	            -webkit-linear-gradient(left,rgba(255,255,255,0.6),rgba(255,255,255,0) 500px,transparent),
+	            -webkit-radial-gradient(55% 65%,circle farthest-corner,rgba(231,231,231,0.6),rgba(231,231,231,0.6) 35%,rgba(231,231,231,0) 59%,rgba(0,0,0,0) 60%,rgba(0,0,0,0.1) 90%,rgba(0,0,0,0.18)) fixed,
+	            url('../img/bg_texture.jpg') fixed;
+	background: url('../img/body_bg.png') top left no-repeat, 
+	            -moz-linear-gradient(left,rgba(255,255,255,0.6),rgba(255,255,255,0) 700px,transparent),
+	            -moz-radial-gradient(55% 65%,circle farthest-corner,rgba(255,255,255,0.6),rgba(231,231,231,0.6) 35%,rgba(231,231,231,0) 59%,rgba(0,0,0,0) 60%,rgba(0,0,0,0.1) 90%,rgba(0,0,0,0.18)) fixed,
+	            url('../img/bg_texture.jpg') fixed;
+	background: url('../img/body_bg.png') top left no-repeat, 
+	            -ms-linear-gradient(left,rgba(255,255,255,0.6),rgba(255,255,255,0) 500px,transparent),
+	            -ms-radial-gradient(55% 65%,circle farthest-corner,rgba(231,231,231,0.6),rgba(231,231,231,0.6) 35%,rgba(231,231,231,0) 59%,rgba(0,0,0,0) 60%,rgba(0,0,0,0.1) 90%,rgba(0,0,0,0.18)) fixed,
+	            url('../img/bg_texture.jpg') fixed;
+	background: url('../img/body_bg.png') top left no-repeat, 
+	            -o-linear-gradient(left,rgba(255,255,255,0.6),rgba(255,255,255,0) 500px,transparent),
+	            -o-radial-gradient(55% 65%,circle farthest-corner,rgba(231,231,231,0.6),rgba(231,231,231,0.6) 35%,rgba(231,231,231,0) 59%,rgba(0,0,0,0) 60%,rgba(0,0,0,0.1) 90%,rgba(0,0,0,0.18)) fixed,
+	            url('../img/bg_texture.jpg') fixed;
+	background: url('../img/body_bg.png') top left no-repeat, 
+	            linear-gradient(left,rgba(255,255,255,0.6),rgba(255,255,255,0) 500px,transparent),
+	            radial-gradient(55% 65%,circle farthest-corner,rgba(231,231,231,0.6),rgba(231,231,231,0.6) 35%,rgba(231,231,231,0) 59%,rgba(0,0,0,0) 60%,rgba(0,0,0,0.1) 90%,rgba(0,0,0,0.18)) fixed,
+	            url('../img/bg_texture.jpg') fixed;
+}
+body {
+	height: 100%;
+}
+p, th, td, li, dt, dd,
+figcaption {
+	line-height: 1.5em;
+	color: #666666;
+	text-shadow: 0 1px 0 #FFFFFF;
+}
+p {
+	text-align: justify;
+	text-justify:inter-ideograph;
+}
+p[lang="en"] {
+	color: #333333;
+	font-size: 85%;
+}
+a:link {
+	color: #000000;
+	-webkit-transition: background-color 0.3s ease-in,
+	                    color 0.3s ease-in,
+	                    text-shadow 0.3s ease-in;
+	-moz-transition: background-color 0.3s ease-in,
+	                 color 0.3s ease-in,
+	                 text-shadow 0.3s ease-in;
+	-ms-transition: background-color 0.3s ease-in,
+	                color 0.3s ease-in,
+	                text-shadow 0.3s ease-in;
+	-o-transition: background-color 0.3s ease-in,
+	               color 0.3s ease-in,
+	               text-shadow 0.3s ease-in;
+	transition: background-color 0.3s ease-in,
+	            color 0.3s ease-in,
+	            text-shadow 0.3s ease-in;
+}
+a:visited {
+	color: #666666;
+}
+a:hover {
+	color: #FFFFFF;
+	-webkit-transition: background-color 0.3s ease-out,
+	                    color 0.3s ease-out,
+	                    text-shadow 0.3s ease-out;
+	-moz-transition: background-color 0.3s ease-out,
+	                 color 0.3s ease-out,
+	                 text-shadow 0.3s ease-out;
+	-ms-transition: background-color 0.3s ease-out,
+	                color 0.3s ease-out,
+	                text-shadow 0.3s ease-out;
+	-o-transition: background-color 0.3s ease-out,
+	               color 0.3s ease-out,
+	               text-shadow 0.3s ease-out;
+	transition: background-color 0.3s ease-out,
+	            color 0.3s ease-out,
+	            text-shadow 0.3s ease-out;
+	background: #3399FF;
+	text-decoration: none;
+	text-shadow: 0 0 0 transparent;
+}
+strong {
+	background: rgb(255,255,128);
+	-webkit-background: rgba(255,255,0,0.5);
+	-moz-background: rgba(255,255,0,0.5);
+	color: #000000;
+}
+.grey_box {
+	padding: 10px;
+	background: rgba(247, 247, 247, 0.95);
+	border: 1px solid #FFFFFF;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	box-shadow: 0 2px 5px rgba(160,160,160,1);
+	-webkit-box-shadow: 0 2px 5px rgba(160,160,160,1);
+	-moz-box-shadow: 0 2px 5px rgba(160,160,160,1);
+	transition: background 0.2s linear;
+	-webkit-transition: background 0.2s linear;
+	-moz-transition: background 0.2s linear;
+}
+.grey_box:hover {
+	border: solid #CCC 1px;
+	background: rgba(255, 255, 255, 0.95);
+	transition: background 0.2s linear;
+	-webkit-transition: background 0.2s linear;
+	-moz-transition: background 0.2s linear;
+}
+/* 
+---------------------------------------------------------------------------------------------------- 
+■ レイアウト
+---------------------------------------------------------------------------------------------------- */
+
+#outline {
+	width: 980px;
+	height: 100%;
+	margin: 0 auto;
+}
+#outline>.inner {
+	width: 890px;
+	min-height: 100%;
+	margin: 0 5px 0 65px;
+	padding: 0 10px 0 10px;
+	position: relative
+}
+article {
+	padding-bottom: 250px;
+}
+/* 
+---------------------------------------------------------------------------------------------------- 
+■ メインヘッダ
+---------------------------------------------------------------------------------------------------- 
+*/
+#main_header {
+	position: relative;
+	padding: 0;
+	text-align: center;
+	font-family: 'Century Gothic';
+}
+.hover-css #site_title a, 
+.hover-anims #site_title a, 
+.hover-anims #site_title span {
+	display: block;
+	margin: 0 auto;
+	padding-top: 190px;
+	height: 20px;
+	width: 690px;
+	background: url('../img/logo.png') no-repeat;
+	background-position: center -210px ;
+	text-decoration: none;
+	text-shadow: 0 1px 0 #FFF;
+}
+.hover-css #site_title a, 
+.hover-anims #site_title a {
+	position:relative;
+}
+.hover-anims #site_title span {
+	position:absolute;
+	top:0;
+	left:0;
+	cursor:pointer;
+}
+.hover-css #site_title a:hover, 
+.hover-css #site_title a.on, 
+.hover-anims #site_title span a.on, 
+.hover-anims #site_title a span, 
+.hover-anims #site_title span {
+	background-position: center 0;
+}
+#site_title a:hover {
+	color: #39F;
+}
+#description {
+	display: none;
+}
+#main_menu {
+	margin: 0.8em 0;
+	padding: 0.5em 0 0 0;
+	border-top: dotted #000000 1px;
+}
+#main_menu ul {
+	list-style: none;
+	letter-spacing: -.40em;
+}
+#main_menu ul li {
+	padding: 0 0.3em;
+	font-size: 116%;
+	border-left: solid #999999 1px;
+	display: inline-block;
+	letter-spacing: normal;
+	line-height: 1em;
+}
+#main_menu ul li:first-child {
+	border-left: none;
+}
+#main_menu ul li a {
+	display: block;
+	margin: 0 0.4em;
+	padding: 0.2em 0.5em;
+	font-weight: 900;
+	text-decoration: none;
+}
+#main_menu ul li a.now {
+	color: #FFF;
+	background: #000;
+	text-shadow: 0 0 0 transparent;
+}
+
+/* 
+---------------------------------------------------------------------------------------------------- 
+■ コンテンツ
+---------------------------------------------------------------------------------------------------- 
+*/
+article header {
+	border-bottom: solid #4763c2 10px;
+	margin: 0 0 3em 0;
+}
+article header h1 {
+	margin-top: 1em;
+	display: inline-block;
+	position: relative;
+	top: 10px;
+	width: 33.33%;
+	line-height: 0.8em;
+	font-size: 400%;
+	font-family: 'Century Gothic';
+	border-bottom: solid #000 10px;
+}
+article header div {
+	display: inline-block;
+	position: relative;
+	top: 9px;
+	width: 66.66%;
+	vertical-align: bottom;
+}
+article header p {
+	font-size: 93%;
+	line-height: 1em;
+	text-align: right;
+	color: #4763c2;
+	text-shadow: 0 0 0 transparent;
+}
+article header p[lang="en"] {
+	padding-right: 0.4em;
+	font-weight: 800;
+	font-size: 9px !important;
+	font-family: 'Century Gothic';
+	text-transform: uppercase;
+	color: #FFF;
+}
+article h2 {
+	height: 1.2em;
+	margin: 0 0 0.7em 0;
+	position: relative;
+	overflow: hidden;
+	font-size: 154%;
+	font-family: 'Century Gothic';
+	font-variant: small-caps;
+	color: #4763C2;
+	text-shadow: 0 1px 0 #FFF;
+	line-height: 1.2em;
+	border-bottom: dotted #4763C2 1px;
+	-webkit-transition: line-height 0.2s ease-in-out;
+	-moz-transition: line-height 0.2s ease-in-out;
+}
+article h2:hover {
+	line-height: 5em;
+}
+article h2 span[lang="ja"] {
+	height: 100%;
+	font-size: 80%;
+	position: absolute;
+	left: 0;
+	line-height: 5em;
+	-webkit-transition: line-height 0.2s ease-in-out;
+	-moz-transition: line-height 0.2s ease-in-out;
+}
+article h2:hover span[lang="ja"] {
+	line-height: 1.5em;
+}
+article .inner {
+	width: 580px;
+	float: left;
+}
+article section {
+	margin: 0 0 2.5em 0;
+}
+article li {
+	margin-left: 1em;
+}
+article aside {
+	width: 290px;
+	padding: 210px 0 0 0;
+	float: right;
+}
+
+
+/* ---------- ABOUT ---------- */
+
+/* 
+#page_about .inner p {
+	width: 49%;
+} 
+*/ 
+#page_about a img {
+	vertical-align: middle;
+}
+#page_about aside {
+	padding: 495px 0 0 0;
+	background: url('../img/head_about.jpg') top right no-repeat;
+}
+
+/* ---------- NEWS ---------- */
+
+#page_news aside {
+	background: url('../img/head_news.jpg') top right no-repeat;
+}
+#page_news h3 {
+	line-height: 1.5em;
+}
+#page_news li.item {
+	margin: 0 0 3em 0;
+	list-style: none;
+}
+#page_news li.item p {
+	margin: 0 0 1em 0;
+}
+#page_news li.item p.sub {
+	position: relative;
+	top: -2em;
+	text-align: right;
+	margin: 0;
+}
+.FB_SERVER_IFRAME {
+	background: rgba(255, 255, 255, 0.3);
+}
+.twtr-widget {
+	border-radius: 6px;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	box-shadow: 0 2px 5px rgba(160,160,160,1);
+	-webkit-box-shadow: 0 2px 5px rgba(160,160,160,1);
+	-moz-box-shadow: 0 2px 5px rgba(160,160,160,1);
+}
+
+/* ---------- SHOWS ---------- */
+
+#page_shows aside {
+	background: url('../img/head_shows.jpg') top right no-repeat;
+}
+#page_shows h3 {
+	line-height: 1.5em;
+}
+#page_shows li.item {
+	margin: 0 0 5em 0;
+	list-style: none;
+}
+#page_shows li.item .showHeader {
+	padding-left: 0.5em;
+	border-left: 5px solid #999;
+}
+#page_shows li.item dt {
+	margin: 1em 0 0.3em 0;
+	font-weight: 600;
+	/* font-size: 82%; */
+	line-height: 1.5em;
+	font-family: 'Century Gothic';
+}
+#page_shows li.item dt:after {
+	content: '...';
+}
+#page_shows li.item dd p {
+	margin-bottom: 0.7em;
+}
+#page_shows li.item dd ul {
+	margin-left: 3px;
+}
+#page_shows li.item dd li {
+	list-style: disc;
+}
+#page_shows li.item dd li a {
+	display: inline-block;
+	height: 1em;
+	margin: 0 0.5em;
+	padding: 1px 0.5em;
+	background: #999;
+	font-size: 80%;
+	line-height: 1em;
+	vertical-align: middle;
+	color: #FFF;
+	-webkit-border-radius: 0.6em;
+	-moz-border-radius: 0.6em;
+	-ms-border-radius: 0.6em;
+	-o-border-radius: 0.6em;
+	border-radius: 0.6em;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+#page_shows li.item dd li a:link {
+	-webkit-transition: background-color 0.3s ease-out, color 0.4s ease-out;
+	-moz-transition: background-color 0.3s ease-out, color 0.4s ease-out;
+}
+#page_shows li.item dd li a:hover {
+	-webkit-transition: background-color 0.3s ease-out, color 0.4s ease-out;
+	-moz-transition: background-color 0.3s ease-out, color 0.4s ease-out;
+	background: #39F;
+}
+#archive {
+	clear: both;
+}
+#ticket {
+	padding: 5px 10px 10px 10px;
+}
+#ticket input[type="text"] {
+	display: block;
+	padding: 4px;
+	border: 1px solid #CCC;
+	width: 90%;
+}
+#ticket textarea {
+	display: block;
+	padding: 4px;
+	border: 1px solid #CCC;
+	height: 6em; width: 90%;
+}
+#ticket div *{
+	vertical-align: middle;
+}
+#ticket div:nth-child(2) {
+	text-align: right;
+}
+
+#live20120519 aside.pr {
+	width: auto;
+	padding: 0;
+	float: none;
+	background:none;
+}
+#live20120519 aside.pr a {
+	display: block;
+	padding: 2px 10px 10px 10px;
+	border: 1px dotted #999;
+	text-decoration: none;
+	text-align: center;
+	font-size: 86%;
+}
+#live20120519 aside.pr img {
+	margin-right: 1em;
+}
+#live20120519 aside.pr div {
+	background: url('http://roomove.net/images/bg/top_bg.jpg') left top;
+}
+#live20120519 aside.pr div * {
+	text-align: left;
+	color: #FFF;
+	text-shadow: 0 0 0 transparent;
+}
+#live20120519 aside.pr div h4{
+	padding: 1em 0;
+	line-height: 1em;
+}
+#live20120519 aside.pr div p {
+	font-weight: 800;
+	padding-right: 1.5em;
+	line-height: 1.2em;
+}
+/* ---------- MUSIC ---------- */
+
+#page_music aside {
+	background: url('../img/head_music.jpg') top right no-repeat;
+}
+#page_music aside p {
+	margin: 0 0 1em 0;
+}
+
+#page_music li.item {
+	list-style: none;
+	width: 165px;
+	margin: 0 15px 15px 0;
+	padding: 5px 5px 0 5px;
+	float: left;
+}
+.songs .item img {
+	margin: 0;
+	width: 100%;
+}
+.songs .item dl {
+	font-family: 'Century Gothic';
+}
+.songs .item dt {
+	font-size: 60%;
+	float: left;
+}
+.songs .item dd {
+	line-height: 1.5em;
+	text-align: right;
+	border-bottom: 1px solid #CCC;
+}
+.songs .item dd:last-child {
+	border: none;
+}
+#download {
+}
+#download input {
+	display: block;
+	padding: 4px;
+	border: 1px solid #CCC;
+	width : 95%;
+}
+#download button {
+	margin: 1em 0 0 0;
+	font-family: 'Century Gothic';
+}
+#download button:hover {
+	text-decoration: none;
+	color: #FFF;
+}
+
+/* ---------- GALLERY ---------- */
+
+#page_gallery section p{
+	text-align: center;
+}
+
+.photobox {
+}
+.photobox p {
+
+}
+.photobox a {
+	display: block;
+	padding: 4px;
+	float: left;
+	border-radius: 8px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+}
+.photobox img{
+	display: inline-block;
+	vertical-align: bottom;
+	border-radius: 6px;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	box-shadow: 0 2px 5px rgba(160,160,160,1);
+	-webkit-box-shadow: 0 2px 5px rgba(160,160,160,1);
+	-moz-box-shadow: 0 2px 5px rgba(160,160,160,1);
+}
+
+/* ---------- LINK ---------- */
+
+#page_link aside {
+	background: url('../img/head_link.jpg') top left no-repeat;
+}
+
+/* ---------- CONTACT ---------- */
+
+#page_contact aside {
+	padding: 495px 0 0 0;
+	background: url('../img/head_contact.jpg') top left no-repeat;
+}
+
+/* 
+---------------------------------------------------------------------------------------------------- 
+■ メインフッタ
+---------------------------------------------------------------------------------------------------- 
+*/
+#main_footer {
+	width: 910px; height: 108px;
+	margin: 2em -10px 0 -10px;
+	padding: 64px 0 0 0;
+	background: url('../img/footer_line.jpg') top center no-repeat;
+	overflow: hidden;
+	position: absolute;
+	bottom: 0px;
+}
+#bottomlink {
+	width: 904px;
+	position: relative;
+	left: -4px;
+	letter-spacing: -.40em;
+}
+#bottomlink a {
+	display: inline-block;
+	margin: 10px 0 10px 14px ;
+	box-shadow: 0 2px 5px rgba(160,160,160,1);
+	-webkit-box-shadow: 0 2px 5px rgba(160,160,160,1);
+	-moz-box-shadow: 0 2px 5px rgba(160,160,160,1);
+}
+#bottomlink a img {
+	border: none;
+	vertical-align: text-bottom;
+}
+
+#bottombar {
+	margin: 0 10px;
+	height: 26px;
+	background: #4763c2;
+	position: relative;
+	line-height: 24px;
+	font-weight: 800;
+	font-size: 9px !important;
+	font-family: 'Century Gothic';
+	text-transform: uppercase;
+	color: #FFF;
+}
+#bottombar a {
+	color: #FFFFFF;
+}
+#bottomtool {
+	height: 26px;
+	width: 33.3%;
+	background: #000;
+	float: right;
+	color: #FFF;
+	line-height: 24px;
+	position: absolute;
+	top: 0; right: 0;
+}
+.fb-like {
+	position: absolute;
+	top: 3px; left: 8px;
+}
+#copyright {
+	padding: 0 0 0 5px;
+	position: absolute;
+	top: 0; left: 0;
+	line-height: 24px;
+	color: #FFF;
+	text-shadow: 0 0 0 transparent;
+}
+#copyright small {
+	vertical-align: middle;
+}
+#copyright img {
+	vertical-align: middle;
+}
+.cfinst {
+	border: solid 5px #000;
+}
+
+/*
+|--------------------------------------------------------------------------
+| UItoTop jQuery Plugin 1.1
+| http://www.mattvarone.com/web-design/uitotop-jquery-plugin/
+|--------------------------------------------------------------------------
+*/
+
+#toTop {
+	display:none;
+	text-decoration:none;
+	position:fixed;
+	bottom:10px;
+	left:10px;
+	overflow:hidden;
+	width:51px;
+	height:51px;
+	border:none;
+	text-indent:-999px;
+	background:url(../img/ui.totop.png) no-repeat left top;
+}
+
+#toTopHover {
+	background:url(../img/ui.totop.png) no-repeat left -51px;
+	width:51px;
+	height:51px;
+	display:block;
+	overflow:hidden;
+	float:left;
+	opacity: 0;
+	-moz-opacity: 0;
+	filter:alpha(opacity=0);
+}
+
+#toTop:active, #toTop:focus {
+	outline:none;
+}

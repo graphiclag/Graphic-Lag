@@ -1,0 +1,89 @@
+<?php include('header.php'); ?>
+
+	<!-- Page Setting -->
+	<title>NEWS | www.graphiclag.com</title>
+
+</head> <!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<body>
+
+<div data-role="page" data-theme="c" id="news">
+
+	<header data-role="header">
+		<h1>NEWS</h1>
+		<a href="index.html" data-icon="home" data-direction="reverse" class="ui-btn-right">TOP</a>
+	</header><!-- /header -->
+
+	<div data-role="content">
+		<ul>
+			<li>
+				<h2>再びイベント！&ldquo;uramado x Graphic Lag&rdquo;<br>開催決定</h2>
+				<p class="newsOption">09.23 UP</p>
+				<p>9月に引き続き、またまたコラボイベントです！今回はライブイベント“uramado”とGraphic Lagによる共催。</p>
+				<p>詳細は当サイトSHOWSページにて
+				<br><a href="shows.html">SHOWS</a></p>
+				<p><a href="http://www.facebook.com/uramadoweb" target="_blank">uramado</a></p>
+			</li>
+<!-- 
+			<li>
+				<h2>middle9 presents &ldquo;Room special 3DAYS&rdquo;<br>出演決定</h2>
+				<p class="newsOption"></p>
+				<p>9/15～19の3日間に渡り開催される、middle9主催の“Room special”に出演致します。Graphic Lagは一日目の15日、心斎橋CONPASSにて出演。
+				更なるイベントの詳細は下部リンク等をご参照下さい。</p>
+				<p>出演日15日の詳細は当サイトSHOWSページにて
+				<br><a href="shows.html">SHOWS</a></p>
+				<p>ぴあ/ローソンなどプレイガイドでチケットは絶賛発売中ですが、通常のお名前でのお取り置きもお伺いいたします。</strong>ページ最下部お問い合わせよりメール、<a href="http://twitter.com/graphiclag" target="_blank">twitter</a>、<a href="http://www.facebook.com/pages/Graphic-Lag/142502499185935" target="_blank">Facebook</a>、メンバー個人への直接連絡、いずれでも受け付けておりますので、是非お気軽にご連絡下さい。</p>
+				<p><a href="http://roomove.net/" target="_blank">Room official</a>
+				<br><a href="http://middle9.net/" target="_blank">middle9</a>
+				<br><a href="http://conpass.jp/" target="_blank">CONPASS</a>
+				</p>
+			</li>
+			<li>
+				<h2>middle9 presents &ldquo;Room special&rdquo;<br>プレイベントに急遽出演決定</h2>
+				<p class="newsOption">04.17 UP</p>
+				<p>まもなく音源リリースも控えるmiddle9の主催により、鰻谷sunsui跡地に出来たライブハウスCONPASSのオープニングパーティも兼ねて行われる注目の新型野外フェス、&ldquo;Room special&rdquo;!! (05.26.<span class="color-blue">SAT</span>&amp;27.<span class="color-red">SUN</span> に大阪服部緑地野外音楽堂にて開催) toe, NATSUMEN, Ovall, L.E.D., LITE, LOSTAGEなど、超豪華ゲスト陣が集まる本編2DAYSに先駆け、一足早く5/19にCONPASSにて行われるプレイベントに出演が決定しました。</p>
+				<p>詳細はSHOWSページにて
+				<br><a href="shows.html">SHOWS</a></p>
+				<p>また、&ldquo;Room special&rdquo;本編につきましては、ぴあ/ローソンなどプレイガイドでチケットは絶賛発売中ですが、<strong>Graphic Lagの方でも本編の方のチケットも取り扱っております。主催者直接予約の特典もございます。</strong>ページ最下部お問い合わせよりメール、<a href="http://twitter.com/graphiclag" target="_blank">twitter</a>、<a href="http://www.facebook.com/pages/Graphic-Lag/142502499185935" target="_blank">Facebook</a>、メンバー個人への直接連絡、いずれでも受け付けておりますので、是非お気軽にご連絡下さい。</p>
+				<p><a href="http://roomove.net/" target="_blank">Room official</a>
+				<br><a href="http://middle9.net/" target="_blank">middle9</a>
+				<br><a href="http://conpass.jp/" target="_blank">CONPASS</a>
+				</p>
+			</li>
+			<li>
+				<h2>&ldquo;LINK&rdquo; USTREAMアーカイブ公開中</h2>
+				<p class="newsOption">03.14 UP</p>
+				<p>3.11に開催しましたGraphic Lag主催によるイベント“LINK”。</p>
+				<p>当日の会場の様子はUSTREAMでリアルタイム配信でネット中継致しましたが、その配信映像はアーカイブとして保存・公開しております。残念ながら今回ご来場いただけなかった方も、是非一度御覧下さい。</p>
+				<p><a href="http://www.ustream.tv/recorded/21034723" target="_blank">USTREAM</a></p>
+			</li>
+
+			<li>
+				<h2>音源ダウンロードでイベントご招待</h2>
+				<p class="newsOption">02.02 UP</p>
+				<p>2月中（2/29日まで）に、当サイト<a href="music.html">MUSIC</a>ページよりダウンロードできるGraphic Lag旧デモ音源を
+				ダウンロードした方の中から抽選で5名様を、3.11に心斎橋Pangeaにて開催のバンド主催イベント “LINK” に無料でご招待。
+				既にダウンロードされた方も期間内に再度行っていただければ対象となります。是非よろしくお願いします。</p>
+				<p class="sub">※当選の発表は、ご招待メールの送信をもって代えさせていただきます。<br>
+				※メールアドレスを変更された場合、ご招待メールが受信できませんのでご注意下さい。<br>
+				※会場への交通費、及び当日のドリンク代金はご負担いただきます。<br>
+				※既にチケット予約をされていた場合も、当選の際は予約分のキャンセルはお伺いいたしますので、
+				ご来場予定の方は是非お早めにご予約頂くこともお勧めいたします。</p>
+			</li>
+			<li>
+				<h2>3.11開催・主催企画イベント詳細発表</h2>
+				<p class="newsOption">01.22 UP</p>
+				<p>Graphic Lagライブ活動開始1周年、バンド初の主催企画イベント！<a href="shows.html#120311">Graphic Lag presents &ldquo;LINK&rdquo;</a>
+				出演バンド等、詳細発表しました。メンバーイチオシのインストバンドばかりの最高のメンツ！</p>
+			</li>
+-->
+		</ul>
+	</div><!-- /content -->
+	
+	<?php include('footer.php'); ?>
+
+</div><!-- /page -->
+
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+</body>
+</html>

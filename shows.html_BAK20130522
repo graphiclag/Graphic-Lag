@@ -1,0 +1,128 @@
+<?php include('header.php'); // ヘッダ前半読込 ?>
+
+<!-- head (ページ個別適用) -->
+
+	<title>SHOWS | Graphic Lag Website</title>
+
+	<!-- ▼META Setting -->
+	<meta name="keywords" content="Graphi Lag,Band,Osaka,Instrumental,グラフィック ラグ,バンド,大阪,インスト">
+	<meta name="description" content="ライブ・イベント出演情報 / Show Schedule">
+
+	<!-- ▼LINK Setting -->
+	<link rel="prev" href="news.html" title="前のページ">
+	<link rel="next" href="music.html" title="次のページ">
+
+	<style>
+	<!-- 
+	#live20121012 li {
+		float: left;
+		width: 30%;
+	}
+	#live20121201 img {
+		width: 560px;
+		margin: 10px auto 0;
+	}
+	 -->
+	</style>
+
+<!-- /head -->
+
+<?php include('menu.php'); // ヘッダ後半読込 ?>
+
+<article id="page_shows" class="clearfix">
+	<header><h1>SHOWS</h1><!-- スペース厳禁 --><div>
+		<p>ライブ・イベント出演情報 / チケットオンライン予約</p>
+		<p lang="en">Latest Live Show Schedule &amp; Online Ticket Reserve</p>
+		</div>
+	</header>
+	
+	<div class="inner">
+		<section id="section1">
+		
+		<h2 lang="en">May<span lang="ja">2013年05月</span></h2>
+		<ul>
+			<li id="live20130505" class="item">
+				<div class="showHeader">
+					<h3>2013.05.05<span class="color_red">SUN</span> at <a href="http://conpass.jp/" target="_blank">Osaka CONPASS</a></h3>
+					<p class="show_title">&ldquo;uramado × Graphic Lag #2&rdquo;<br><span class="sub">-tam tam releaseTOURosaka-</span></p>
+					<p class="sub">OPEN 17:00 START 17:30 / ADV ￥2,000 DOOR ￥2,500 (1drink別)</p>
+				</div>
+				<dl>
+					<dt>WITH</dt>
+					<dd>
+					<ul class="show_band">
+						<li>tam tam</li>
+						<li>ヤセイ・コレクティブ</li>
+						<li>DAMBO</li>
+						<li>emptye</li>
+					</ul>
+					</dd>
+					<dt>DJ</dt>
+					<dd>
+					<ul class="show_band">
+						<li>レオニ (六階)</li>
+						<li>djago (Graphic Lag)</li>
+					</ul>
+					</dd>
+					<dt>FOOD</dt>
+					<dd>
+					<ul>
+						<li>喫茶カオカオ</li>
+					</ul>
+					</dd>
+					<dt>INFORMATION</dt>
+					<dd>
+						<p>東心斎橋CONPASS TEL:06-6243-1666</p>
+						<p>チケットご予約受付中。<br>
+						お名前、ご予約枚数を明記の上、 <a href="mailto:graphiclag@gmail.com">graphiclag@gmail.com</a> 宛てにメールにてご連絡下さい。</p>
+					</dd>
+				</dl>
+			</li>
+		</ul>
+		
+		</section>
+
+		<!-- 【★実装予定】
+		<section class="grey_box">
+		<h3>Past Live Archive</h3>
+		</section>
+		-->
+
+	<!-- /.inner -->
+	</div>
+
+	<aside>
+
+		<!-- 【★実装予定】
+		<h2 lang="en">Ticket Reserve<span lang="ja">チケット予約</span></h2>
+		<form id="ticket" class="grey_box">		
+			<div>
+			<select>
+			 <option>Day</option>
+			 <option>11/03</option>
+			 <option>11/26</option>
+			</select> <label>at Kyoto MOJO</label>
+			</div>
+			<div>
+			<label>￥2,000- ×</label> <select>
+			 <option>1</option>
+			 <option>2</option>
+			 <option>3</option>
+			 <option>4</option>
+			 <option>5</option>
+			</select>
+			</div>
+			<input type="text" value="Name">
+			<input type="text" value="E-Mail">
+			<input type="text" value="E-Mail (確認用)">
+			<textarea>Message (任意)</textarea>
+			<input type="submit" value="Send">
+			<input type="reset" value="Reset">
+		</form>
+		-->
+
+	</aside>
+
+</article>
+
+<?php include('footer.php'); // フッタ読込 ?>

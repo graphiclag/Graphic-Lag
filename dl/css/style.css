@@ -1,0 +1,176 @@
+@charset "utf-8";
+
+html, body,
+#body_bg, #wrapper {
+	width: 100%;
+}
+html {
+	background: -webkit-linear-gradient(bottom,rgba(255,255,255,0.6),rgba(255,255,255,0) 500px,transparent) fixed,
+	            -webkit-radial-gradient(50% 50%,circle farthest-corner,rgba(231,231,231,0.6),rgba(231,231,231,0.6) 35%,rgba(231,231,231,0) 59%,rgba(0,0,0,0) 60%,rgba(0,0,0,0.1) 90%,rgba(0,0,0,0.18)) fixed,
+	            url('../img/body_texture.jpg') fixed;
+	background: -moz-linear-gradient(bottom,rgba(255,255,255,0.6),rgba(255,255,255,0) 700px,transparent) fixed,
+	            -moz-radial-gradient(50% 50%,circle farthest-corner,rgba(255,255,255,0.6),rgba(231,231,231,0.6) 35%,rgba(231,231,231,0) 59%,rgba(0,0,0,0) 60%,rgba(0,0,0,0.1) 90%,rgba(0,0,0,0.18)) fixed,
+	            url('../img/body_texture.jpg') fixed;
+	background: -ms-linear-gradient(bottom,rgba(255,255,255,0.6),rgba(255,255,255,0) 500px,transparent) fixed,
+	            -ms-radial-gradient(50% 50%,circle farthest-corner,rgba(231,231,231,0.6),rgba(231,231,231,0.6) 35%,rgba(231,231,231,0) 59%,rgba(0,0,0,0) 60%,rgba(0,0,0,0.1) 90%,rgba(0,0,0,0.18)) fixed,
+	            url('../img/body_texture.jpg') fixed;
+	background: -o-linear-gradient(bottom,rgba(255,255,255,0.6),rgba(255,255,255,0) 500px,transparent) fixed,
+	            -o-radial-gradient(50% 50%,circle farthest-corner,rgba(231,231,231,0.6),rgba(231,231,231,0.6) 35%,rgba(231,231,231,0) 59%,rgba(0,0,0,0) 60%,rgba(0,0,0,0.1) 90%,rgba(0,0,0,0.18)) fixed,
+	            url('../img/body_texture.jpg') fixed;
+	background: linear-gradient(bottom,rgba(255,255,255,0.6),rgba(255,255,255,0) 500px,transparent) fixed,
+	            radial-gradient(50% 50%,circle farthest-corner,rgba(231,231,231,0.6),rgba(231,231,231,0.6) 35%,rgba(231,231,231,0) 59%,rgba(0,0,0,0) 60%,rgba(0,0,0,0.1) 90%,rgba(0,0,0,0.18)) fixed,
+	            url('../img/body_texture.jpg') fixed;
+}
+body {
+	color: #f2f2f2;
+	background: url(../img/body_bg.png) repeat-y center top fixed;
+	font-size: 108%;
+}
+#body_bg {
+	
+}
+
+#wrapper {
+	background: url(../img/body_top.jpg) no-repeat center top;
+}
+
+#main_header,
+#contents,
+#main_footer {
+	width: 640px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#main_header #headlink {
+	margin-bottom: 15px;
+	padding: 20px 0 10px;
+	border-bottom: 1px dotted #999;
+}
+
+#main_header h1 {
+	margin-bottom: 120px;
+}
+
+#main_footer {
+	padding: 30px 0;
+	font-size: 12px;
+	border-top: 1px dotted #999;
+}
+#main_footer p {
+	text-align: center;
+}
+
+
+/* basic */
+
+img {
+	vertical-align: bottom;
+}
+a,
+a:link,
+a:visited {
+	color: #39f;
+	text-decoration: none;
+}
+a:hover {
+	color: #fff;
+	background: #39F;
+}
+span {
+	font-size: 80%;
+	font-weight: 400;
+}
+h2 {
+	width: 600px;
+	height: 123px;
+	margin: 0 auto;
+	padding-top: 33px;
+	background: url(../img/speaker_bg.png) no-repeat center top;
+	font-size: 24px;
+}
+h4 {
+	font-size: 126%;
+	border-left: 8px solid #333;
+	color: #ccc;
+	margin: 5px 0;
+	padding-left: 5px;
+}
+
+/* contents */
+
+#contents section {
+	margin-bottom: 60px;
+	padding: 15px 20px;
+	background: rgba(255,255,255,0.2);
+}
+#contents section p {
+	margin: 0;
+	font-size: 66%;
+	text-align: left;
+}
+#contents section p,
+#contents section caption,
+#contents section th,
+#contents section td {
+	text-shadow: 0 -1px 0 #000;
+	line-height: 1.2;
+}
+.dltable {
+	width: 100%;
+	border-collapse: separate;
+	border-spacing: 2px;
+	margin: 30px 0 5px;
+}
+.dltable caption {
+	margin: 0 2px 0;
+	padding: 5px 160px 5px 10px;
+	background: #666;
+	text-align: left;
+}
+.dltable caption img {
+	position: absolute;
+	right: 15px;
+	top: -15px;
+}
+.dltable th {
+	padding: 5px;
+	background: #666;
+	border: none;
+	vertical-align: middle;
+}
+.dltable td {
+	width: 33%;
+	padding: 5px;
+	background: #464646;
+	border: none;
+}
+.dltable td.trackname {
+	width: 18%;
+}
+.dltable td.tracktime {
+	width: 16%;
+}
+.dltable td a {
+	display: block;
+	width: 100%;
+	height: 100%;
+	padding: 13px 0;
+}
+.dltable td a:hover {
+	background: #39F;
+}
+
+section.item01 {
+	position: relative;
+}
+img.ico_new {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.item01_01,
+.item02_01,
+.item02_02 {
+	position: relative;
+}

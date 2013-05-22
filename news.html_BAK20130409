@@ -1,0 +1,194 @@
+<?php include('header.php'); ?>
+
+<!-- head (ページ個別適用) -->
+
+	<title>NEWS | Graphic Lag Website</title>
+
+	<!-- ▼META Setting -->
+	<meta name="keywords" content="Graphi Lag,Band,Osaka,Instrumental,グラフィック ラグ,バンド,大阪,インスト">
+	<meta name="description" content="最新情報 / Latest Information">
+
+	<!-- ▼LINK Setting -->
+	<link rel="prev" href="about.html" title="前のページ">
+	<link rel="next" href="shows.html" title="次のページ">
+
+<!-- /head -->
+
+<?php include('menu.php'); ?>
+
+<article id="page_news" class="clearfix">
+	<header><h1>NEWS</h1><!-- スペース厳禁 --><div>
+		<p>最新ニュース</p>
+		<p lang="en">Latest Information</p>
+		</div>
+	</header>
+	<div class="inner">
+
+	<section>
+	<h2 lang="en">Pick Up<span lang="ja">注目のニュース</span></h2>
+	<ul>
+	<li class="item">
+		<h3>共同企画 &ldquo;uramado × Graphic Lag #2&rdquo; 開催決定</h3>
+		<p class="sub">(2013.03.10 UP)</p>
+		<p>ライブイベント&ldquo;uramado&rdquo;との共同企画を再び行います。<br>
+		前回、昨年12月の第一回目と同様、共催だからこそ実現できる最高のラインナップになっていると思います。東心斎橋のCONPASSにて、5/5開催です。イベント続きではありますが、皆様よろしくお願いいたします。</p>
+		<p>出演アーティスト等詳細はSHOWSページにて。既にチケットのご予約も受付けております。</p>
+		<p>&raquo;<a href="shows.html">SHOWS</a></p>
+	</li>
+	<li class="item">
+		<h3>Graphic Lag presents &ldquo;LINK 2nd&rdquo; USTREAM映像アーカイブ公開中</h3>
+		<p class="sub">(2012.03.10 UP)</p>
+		<p>3/9、Pangeaにて開催のイベント&ldquo;LINK 2nd&rdquo;、USTREAMで中継配信した映像がアーカイブとして保存・公開されています。<br>
+		ご来場いただいた方も、今回ご来場いただけなかった方も、是非ご覧下さい。</p>
+		<p>&raquo;<a href="http://www.ustream.tv/channel/graphic-lag" target="_blank">USTREAM</a></p>
+	</li>
+	<li class="item">
+		<h3>バンドよりお知らせ</h3>
+		<p class="sub">(2013.03.02 UP)</p>
+		<p>2010年の結成当初より共に活動して来ました、Guitar.北里、Electric Percussin/Sampler.K-SHOW、以上の2名が、今回バンドより正式に脱退する事となりましたので、ご報告致します。なお、3/9に行うGraphic Lag主催のイベント“LINK”については、残るメンバーと、サポートプレイヤーを迎えての出演になります。どうぞご理解下さい。</p>
+	</li>
+	<li class="item">
+		<h3>新音源配信開始</h3>
+		<p class="sub">(2013.02.01 UP)</p>
+		<p>新らしい音源&ldquo;Amazon&rdquo;のフリーダウンロードを開始致しました。 (PC・スマートフォンのみ)</p>
+		<p>&raquo;<a href="music.html">MUSIC</a></p>
+	</li>
+<!-- 
+	<li class="item">
+		<h3>共同企画 &ldquo;uramado × Graphic Lag -LINK extra-&rdquo; 決定</h3>
+		<p class="sub">(2012.09.17 UP)</p>
+		<p>ライブイベント&ldquo;uramado&rdquo;との共同企画。<br>
+		共催だからこそ実現できた超豪華ゲストを迎えた最高顔ぶれ。<br>
+		東心斎橋のCONPASSにて、12/1に開催致します。</p>
+		<p>出演アーティストはSHOWSページにて。その他詳細は追って発表いたします。</p>
+		<p>&raquo;<a href="shows.html">SHOWS</a></p>
+	</li>
+	<li class="item">
+		<h3>Graphic Lag &amp; Pelori (F.I.B) presents &ldquo;LINK extra&rdquo; USTREAM映像アーカイブ公開中</h3>
+		<p class="sub">(2012.09.17 UP)</p>
+		<p>9/1、Pangeaにて開催のイベント&ldquo;LINK extra&rdquo;、USTREAMで中継配信した映像がアーカイブとして保存・公開されています。<br>
+		ご来場いただいた方も、今回ご来場いただけなかった方も、是非ご覧下さい。</p>
+		<p>&raquo;<a href="http://www.ustream.tv/recorded/21034723" target="_blank">USTREAM</a></p>
+	</li>
+	<li class="item">
+		<h3>Graphic Lag &amp; Pelori (F.I.B) presents &ldquo;LINK extra&rdquo; 9/1開催</h3>
+		<p class="sub">(2012.08.03 UP)</p>
+		<p>3.11に初めて開催したGraphic Lag主催のイベント&ldquo;LINK&rdquo;。<br>
+		半年を経て、9/1、再びPangeaにてイベント開催！今回は&ldquo;extra&rdquo;ということで、Pelori (<a href="http://www.fib-21cnos.com/" target="_blank">F.I.B</a>)との共同企画。
+		メンバーのルーツにも通ずる「歌モノ」も揃えた面子で、前回とはまた一味違ったイベントをお届けします。</p>
+		<p>&raquo;<a href="shows.html">SHOWS</a></p>
+	</li>
+	<li class="item">
+		<h3>新音源配信開始</h3>
+		<p class="sub">(2012.08.03 UP)</p>
+		<p>ライブでは既に定番曲、音源化。&ldquo;Cosmo&rdquo; 配信開始。(PC・スマートフォンのみ)</p>
+		<p>&raquo;<a href="music.html">MUSIC</a></p>
+	</li>
+	<li class="item">
+		<h3>音源ダウンロードでイベントご招待</h3>
+		<p class="sub">(2012.08.03 UP)</p>
+		<p>8月25日までに、当サイトMUSICページよりダウンロードできる<br>
+		Graphic Lagデモ音源をダウンロードした方を抽選で、<br>
+		9/1開催のイベント &ldquo;LINK extra&rdquo; に無料でご招待。<br>
+		既にダウンロードされた方も期間内に再度行っていただければ対象となります。</p>
+		<p>※当選の発表は、ご招待メールの送信をもって代えさせていただきます。<br>
+		※メールアドレスを変更された場合、ご招待メールが受信できませんのでご注意下さい。<br>
+		※会場への交通費、及び当日のドリンク代金はご負担いただきます。<br>
+		※既にチケット予約をされていた場合も、当選の際は予約分のキャンセルはお伺いいたしますので、ご来場予定の方は是非お早めにご予約頂くこともお勧めいたします。</p>
+		<p>&raquo;<a href="music.html">MUSIC</a></p>
+	</li>
+
+	<li class="item">
+		<h3>middle9 presents &ldquo;Room special&rdquo; プレイベントに急遽出演決定</h3>
+		<p class="sub">(2012.05.01 UP)</p>
+		<p>まもなく音源リリースも控えるmiddle9の主催により、鰻谷sunsui跡地に出来たライブハウスCONPASSのオープニングパーティも兼ねて行われる注目の新型野外フェス、&ldquo;Room special&rdquo;!! (05.26.<span class="color_blue">SAT</span>&amp;27.<span class="color_red">SUN</span> に大阪服部緑地野外音楽堂にて開催) toe, NATSUMEN, Ovall, L.E.D., LITE, LOSTAGEなど、超豪華ゲスト陣が集まる本編2DAYSに先駆け、一足早く5/19にCONPASSにて行われるプレイベントに出演が決定しました。</p>
+		<p>詳細はSHOWSページにて
+		<br>&raquo;<a href="shows.html">SHOWS</a></p>
+		<p>また、&ldquo;Room special&rdquo;本編につきましては、ぴあ/ローソンなどプレイガイドでチケットは絶賛発売中ですが、<strong>Graphic Lagの方でも本編の方のチケットも取り扱っております。主催者直接予約の特典もございます。本編チケット持参でプレイベント入場時ディスカウント!!</strong> CONTACTページよりメール、twitter、Facebook、メンバー個人への直接連絡、いずれでも受け付けておりますが、希望者多数の場合、締め切らせていただきますので、是非お早めにご連絡下さい。</p>
+		<p>&raquo;<a href="http://roomove.net/" target="_blank">Room official</a>
+		<br>&raquo;<a href="http://middle9.net/" target="_blank">middle9</a>
+		<br>&raquo;<a href="http://conpass.jp/" target="_blank">CONPASS</a>
+		</p>
+	</li>
+	<li class="item">
+		<h3>Graphic Lag presents &ldquo;LINK&rdquo; USTREAMアーカイブ公開中</h3>
+		<p class="sub">(2012.03.14 UP)</p>
+		<p>3.11に開催しましたGraphic Lag主催によるイベント&ldquo;LINK&rdquo;。</p>
+		<p>当日の会場の様子はUSTREAMでリアルタイム配信でネット中継致しましたが、<br>
+		その配信映像はアーカイブとして保存・公開しております。<br>
+		残念ながら今回ご来場いただけなかった方も、是非一度御覧下さい。</p>
+		<p>&raquo;<a href="http://www.ustream.tv/recorded/21034723" target="_blank">USTREAM</a></p>
+	</li>
+
+	<li class="item">
+		<h3>音源ダウンロードでイベントご招待</h3>
+		<p class="sub">(2012.02.02 UP)</p>
+		<p>2月中（2/29日まで）に、当サイトMUSICページよりダウンロードできる<br>
+		Graphic Lag旧デモ音源をダウンロードした方の中から抽選で5名様を、<br>
+		3.11に心斎橋Pangeaにて開催のバンド主催イベント &ldquo;LINK&rdquo; に無料でご招待。<br>
+		既にダウンロードされた方も期間内に再度行っていただければ対象となります。<br>
+		是非よろしくお願いします。</p>
+		<p>※当選の発表は、ご招待メールの送信をもって代えさせていただきます。<br>
+		※メールアドレスを変更された場合、ご招待メールが受信できませんのでご注意下さい。<br>
+		※会場への交通費、及び当日のドリンク代金はご負担いただきます。<br>
+		※既にチケット予約をされていた場合も、当選の際は予約分のキャンセルはお伺いいたしますので、ご来場予定の方は是非お早めにご予約頂くこともお勧めいたします。</p>
+		<p>&raquo;<a href="music.html">MUSIC</a></p>
+	</li>
+	<li class="item">
+		<h3>3.11開催・主催企画イベント詳細発表</h3>
+		<p class="sub">(2012.01.22 UP)</p>
+		<p>Graphic Lagライブ活動開始1周年、バンド初の主催企画イベント！<br>
+		<strong class="color_red">Graphic Lag presents &ldquo;LINK&rdquo;</strong></p>
+		<p>出演バンド等、詳細発表しました。メンバーイチオシのインストバンドばかりの最高のメンツ！<br>
+		詳細は以下のリンク先、SHOWSページに！</p>
+		<p>&raquo;<a href="shows.html">SHOWS</a></p>
+	</li>
+-->
+	</ul>
+	</section>
+
+	<section>
+	<h2 lang="en">More<span lang="ja">その他のニュース</span></h2>
+	<script src="http://static.ak.connect.facebook.com/js/api_lib/v0.4/FeatureLoader.js.php" type="text/javascript"></script> <script type="text/javascript">FB.init("9477825cf48f5fbcc862d2db39f4e0ab");</script>
+	<fb:fan profile_id="142502499185935" connections="0" width="580" stream="true" header="false" css="http://www.graphiclag.com/css/facebook.css?17"></fb:fan>
+<!--	<div class="fb-like-box" data-href="http://www.facebook.com/pages/Graphic-Lag/142502499185935" data-width="580" data-show-faces="false" data-border-color="#E0E0E0" data-stream="true" data-header="false"></div> -->
+	</section>
+
+	</div>
+	<aside>
+
+<h2 lang="en">Recent Tweets<span lang="ja">最新のつぶやき</span></h2>
+<script src="http://widgets.twimg.com/j/2/widget.js"></script>
+<script>
+new TWTR.Widget({
+  version: 2,
+  type: 'profile',
+  rpp: 7,
+  interval: 10000,
+  width: 'auto',
+  height: 300,
+  theme: {
+    shell: {
+      background: 'rgba(231, 231, 231, 0.9)',
+      color: '#000000'
+    },
+    tweets: {
+      background: 'rgba(255, 255, 255, 0.8)',
+      color: '#999999',
+      links: '#000000'
+    }
+  },
+  features: {
+    scrollbar: false,
+    loop: false,
+    live: true,
+    behavior: 'all'
+  }
+}).render().setUser('GraphicLag').start();
+</script>
+
+	</aside>
+	<footer></footer>
+</article>
+
+<?php include('footer.php'); ?>

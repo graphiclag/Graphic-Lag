@@ -1,0 +1,86 @@
+<?php include('header.php'); ?>
+
+	<!-- Page Setting -->
+	<title>ABOUT | www.graphiclag.com</title>
+
+</head> <!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<body>
+
+<div data-role="page" data-theme="c" id="home">
+
+	<div data-role="header">
+		<h1>ABOUT</h1>
+		<a href="index.html" data-icon="home" data-direction="reverse" class="ui-btn-right">TOP</a>
+	</div><!-- /header -->
+
+	<div data-role="content">
+		<div id="profile_band">
+		<img src="img/artistimage.jpg">
+		<p>2010年結成。<br>それぞれ大阪・京都での異なるバンドでの経験を経て集まった、ギター×2、ベース、ドラム、キーボード、サンプラーの6人組インストゥルメンタルロックバンド。 
+		2本のギターが刻む鋭利なサウンドを中心としながら、サンプリングやデジタルサウンドも柔軟に取り入れ、ジャンルの枠に捕われない多様な世界観の表現を追求している。
+		2011年初頭より本格的なライブ活動を開始する。そして2011年6月には、レコーディングからアートワークまで全てバンド自らの手で行った、初のデモ音源をwebにて無料公開。
+		現在も本拠地である大阪を中心に活動中。</p>
+		</div>
+		<h2>MEMBER</h2>
+		<div data-role="collapsible-set" data-theme="c" data-content-theme="d" id="profile_member">
+			<div data-role="collapsible">
+				<h3><p>中村 乙彦</p>Otohiko Nakamura</h3>
+				<ul>
+				<li>Bass</li>
+				<li>ex.Cock-tail, ex.underneeth his kindness</li>
+				</ul>
+				<footer class="clearfix">
+				<a href="https://twitter.com/otohicock" target="_blank"><img src="img/btn_follow.png"></a>
+				</footer>
+			</div>
+			<div data-role="collapsible">
+				<h3><p>高瀬 フヒト</p>Fuhito Takase</h3>
+				<ul>
+				<li>Drums</li>
+				<li>ex.ANDER PRESSURE</li>
+				</ul>
+				<footer class="clearfix">
+				<a href="https://twitter.com/AsuraDrummer" target="_blank"><img src="img/btn_follow.png"></a>
+				</footer>
+			</div>
+			<div data-role="collapsible">
+				<h3><p>小林 航</p>Wataru Kobayashi</h3>
+				<ul>
+				<li>Guitar</li>
+				<li>ex.aoi</li>
+				</ul>
+				<footer class="clearfix">
+				<a href="https://twitter.com/AGS_AGS" target="_blank"><img src="img/btn_follow.png"></a>
+				</footer>
+			</div>
+			<div data-role="collapsible">
+				<h3><p>北里 大祐</p>Daisuke Kitazato</h3>
+				<ul>
+				<li>Guitar</li>
+				</ul>
+			</div>
+			<div data-role="collapsible">
+				<h3><p>内山 雄一</p>Yuichi Uchiyama</h3>
+				<ul>
+				<li>Sythesizer</li>
+				<li>ex.non ferrous metal</li>
+				</ul>
+			</div>
+			<div data-role="collapsible">
+				<h3><p>ケイショウ</p>K-SHOW</h3>
+				<ul>
+				<li>Electric Percussion, Sampler, Shout</li>
+				<li>ex.Cock-tail</li>
+				</ul>
+			</div>
+		</div>
+	</div><!-- /content -->
+	
+	<?php include('footer.php'); ?>
+
+</div><!-- /page -->
+
+
+
+</body>
+</html>

@@ -1,0 +1,51 @@
+<?php include('header.php'); ?>
+
+	<!-- Page Setting -->
+	<title>NEWS | www.graphiclag.com</title>
+
+</head> <!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<body>
+
+<div data-role="page" data-theme="c" id="news">
+
+	<header data-role="header">
+		<h1>NEWS</h1>
+		<a href="index.html" data-icon="home" data-direction="reverse" class="ui-btn-right">TOP</a>
+	</header><!-- /header -->
+
+	<div data-role="content">
+		<ul>
+			<li>
+				<h2>バンドよりお知らせ</h2>
+				<p class="newsOption">03.02 UP</p>
+				<p>2010年の結成当初より共に活動して来ました、Guitar.北里、Electric Percussin/Sampler.K-SHOW、以上の2名が、今回バンドより正式に脱退する事となりましたので、ご報告致します。なお、3/9に行うGraphic Lag主催のイベント“LINK”については、残るメンバーと、サポートプレイヤーを迎えての出演になります。どうぞご理解下さい。</p>
+			</li>
+			<li>
+				<h2>03.09開催・主催企画イベント詳細発表</h2>
+				<p class="newsOption">02.02 UP</p>
+				<p>Graphic Lag主催企画イベント、<a href="shows.html#130309">Graphic Lag presents &ldquo;LINK 2nd&rdquo;</a>
+				出演バンド等、詳細発表しました。一年ぶりのイベントです！</p>
+			</li>
+			<li>
+				<h2>音源ダウンロードでイベントご招待</h2>
+				<p class="newsOption">02.02 UP</p>
+				<p>2月末日迄に、当サイト<a href="music.html">MUSIC</a>ページよりダウンロードできるGraphic Lagデモ音源を
+				ダウンロードした方の中から抽選で、主催イベント &ldquo;LINK&rdquo; に無料でご招待。
+				既にダウンロードされた方も期間内に再度行っていただければ対象となります。是非よろしくお願いします。</p>
+				<p class="sub">※当選の発表は、ご招待メールの送信をもって代えさせていただきます。<br>
+				※メールアドレスを変更された場合、ご招待メールが受信できませんのでご注意下さい。<br>
+				※会場への交通費、及び当日のドリンク代金はご負担いただきます。<br>
+				※既にチケット予約をされていた場合も、当選の際は予約分のキャンセルはお伺いいたしますので、
+				ご来場予定の方は是非お早めにご予約頂くこともお勧めいたします。</p>
+			</li>
+		</ul>
+	</div><!-- /content -->
+	
+	<?php include('footer.php'); ?>
+
+</div><!-- /page -->
+
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+</body>
+</html>

@@ -1,0 +1,71 @@
+<?php include('header.php'); ?>
+
+	<!-- Page Setting -->
+	<title>www.graphiclag.com</title>
+
+</head> <!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<body>
+
+<div data-role="page" data-theme="c" id="home">
+	<header>
+	<div data-role="header" data-theme="a">
+		<h1>TOP</h1>
+	</div><!-- /header -->
+	</header>
+
+	<article>
+	<div data-role="content">
+
+		<header>
+			<img src="img/toplogo.png">
+		</header>
+
+		<section id="topics">
+		<h2>SPECIAL TOPICS</h2>
+		<ul data-role="listview" data-inset="true">
+			<li>
+				<a href="show121201.html">
+					<h3>&ldquo;uramado x Graphic Lag&rdquo;</h3>
+					<p><strong>12.01(SAT) @ Osaka CONPASS</strong></p>
+					<p>コラボイベントイベント開催！！</p>
+				</a>
+			</li>
+		</ul>
+		<img src="../img/topnews2.jpg">
+		</section>
+
+
+		<section id="upinfo">
+		<h2>UPDATE INFO</h2>
+		<ul class="clearfix">
+			<li>NEWS, SHOWS 更新<span>(09.23)</span></li>
+		</ul>
+		</section>
+
+		<section id="mainMenu">
+		<h2>MAIN CONTENTS</h2>
+		<ul data-role="listview" data-inset="true">
+			<li><a href="about.html">ABOUT</a></li>
+			<li><a href="news.html">NEWS</a></li>
+			<li><a href="shows.html">SHOWS</a></li>
+			<li><a href="music.html">MUSIC</a></li>
+		</ul>
+		</section>
+
+		<h2>LINK</h2>
+		<div id="topLinks">
+		<a href="http://www.myspace.com/graphiclag" target="_blank"><img src="img/bnr_myspace.png"></a>
+		<a href="http://twitter.com/graphiclag" target="_blank"><img src="img/bnr_twitter.png"></a>
+		<a href="http://www.facebook.com/pages/Graphic-Lag/142502499185935" target="_blank"><img src="img/bnr_facebook.png"></a>
+		<a href="http://ameblo.jp/graphiclag" target="_blank"><img src="img/bnr_ameba.png"></a>
+		</div>
+
+	</div><!-- /content -->
+	</article>
+
+	<?php include('footer.php'); ?>
+
+</div><!-- /page -->
+
+</body>
+</html>

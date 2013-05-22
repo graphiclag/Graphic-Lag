@@ -1,0 +1,11 @@
+@charset 'utf-8';
+
+.fan_box .full_widget {
+	background-color: transparent;
+	border: none;
+	text-shadow: 0 1px 0 #FFF;
+	
+}
+.fan_box .full_widget .connect_top {
+	background-color: transparent;
+}

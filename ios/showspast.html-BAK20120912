@@ -1,0 +1,80 @@
+<?php include('header.php'); ?>
+
+	<!-- Page Setting -->
+	<title>SHOWS | www.graphiclag.com</title>
+
+</head> <!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<body>
+
+<div data-role="page" data-theme="c" id="showsPast">
+
+	<header data-role="header">
+		<h1>PAST SHOWS</h1>
+		<a href="index.html" data-icon="home" data-direction="reverse" class="ui-btn-right">TOP</a>
+	</header><!-- /header -->
+
+	<div data-role="content">
+		<ul data-role="listview">
+			<li data-theme="b">
+				2012
+			</li>
+			<li id="show120311">
+				<h2>03.11.<span class="sub color-red">SUN</span> Osaka Pangea</h2>
+				<p class="showTitle">Graphic Lag presents&ldquo;LINK&rdquo;</p>
+				<p>w/ middle9, pasteur(Kyoto), 吉野, pavo eat peas, Lamps</p>
+			</li>
+			<li id="show120106">
+				<h2>01.06.<span class="sub">FRI</span> Osaka Pangea</h2>
+				<p class="showTitle">&ldquo;QUEEN FOR A DAY vol.2&rdquo;</p>
+				<p>w/ The MONGOLOID, 吉野, VINCENT trip film</p>
+			</li>
+			<li data-theme="b">
+				2011
+			</li>
+			<li id="show111218">
+				<h2>12.18.<span class="sub color-red">SUN</span> Osaka Mother Popcorn</h2>
+				<p class="showTitle">&ldquo;クリスマスの約束 ～鍋とライブと達郎と～&rdquo;</p>
+				<p>w/ CHiCHi, ドレス, Fall Off, Lamps, しゃこ, esse, The Harper</p>
+			</li>
+			<li id="show111126">
+				<h2>11.26.<span class="sub color-blue">SAT</span> Osaka club vijon</h2>
+				<p class="showTitle">Musicaclusta presents &ldquo;ナンバソニック&rdquo;</p>
+				<p>w/ Musicaclusta, balancing act, More vibes presents, Betsy, 保育士NEO, 富士山</p>
+			</li>
+			<li id="show111103">
+				<h2>11.03.<span class="sub color-red">THU</span> Kyoto MOJO</h2>
+				<p>w/ ROOKiEZ is PUNK'D, LYMRAM, 89 with Fire Monkey, FAKE GLASS, SUNRISE AGAIN</p>
+			</li>
+			<li id="show110924">
+				<h2>09.24.<span class="sub color-blue">SAT</span> Osaka soma</h2>
+				<p class="showTitle">&ldquo;makoto SONIC 2011&rdquo;</p>
+			</li>
+			<li id="show110807">
+				<h2>08.07.<span class="sub color-red">SUN</span> Kyoto MOJO</h2>
+				<p>w/ レンゲフィールド, ad hoc, CHILDREMY, いしころ, ザ・シテシヲマタズ, アマリリス</p>
+			</li>
+			<li id="show110612">
+				<h2>06.12.<span class="sub color-red">SUN</span> Osaka club vijon</h2>
+				<p class="showTitle">BOT presents &ldquo;Coagulation&rdquo;</p>
+				<p>w/ Juvenile Color, Front Neck Lock, ZANTOU, Borderless, Straight Glanz</p>
+			</li>
+			<li id="show110417">
+				<h2>04.17.<span class="sub color-red">SUN</span> Osaka club MERCURY</h2>
+			</li>
+			<li id="show110219">
+				<h2>02.19.<span class="sub color-blue">SAT</span> Osaka club vijon</h2>
+				<p class="showTitle">SQUASH presents &ldquo;SPARK vol.5&rdquo; -BOYS COLLECTION-</p>
+				<p>w/ SQUASH, FIRE MONKEY, punky disco rockerz, KLOVER+, Unexpected, The coupy, <DJ>first, <VJ>HAL & TECMARK</p>
+			</li>
+			<li id="show110108">
+				<h2>01.08.<span class="sub color-blue">SAT</span> Osaka club MERCURY</h2>
+			</li>
+		</ul>
+	</div><!-- /content -->
+	
+	<?php include('footer.php'); ?>
+
+</div><!-- /page -->
+
+</body>
+</html>

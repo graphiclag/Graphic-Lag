@@ -1,0 +1,58 @@
+<?php include('header.php'); ?>
+
+	<!-- Page Setting -->
+	<title>SHOWS | www.graphiclag.com</title>
+
+</head> <!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<body>
+
+<div data-role="page" data-theme="c" id="show130505" class="show">
+
+	<header data-role="header" class="topBar">
+		<h1>2013.05.05</h1>
+		<a href="index.html" data-icon="home" data-direction="reverse" class="ui-btn-right">TOP</a>
+	</header><!-- /header -->
+
+	<article>
+	<div data-role="content">
+		<div class="clearfix">
+		<h2>&ldquo;uramado × Graphic Lag #2&rdquo;</h2>
+		</div>
+		<ul data-role="listview" data-theme="d" data-inset="true">
+ 			<li>2013.05.05.<span class="color-red">SUN</span></li>
+			<li><a href="http://maps.google.com/maps?q=大阪府大阪市中央区東心斎橋1-12-20" target="_blank">@ Osaka CONPASS</a></li>
+			<li>OPEN 17:00 / START 17:30</li>
+			<li>ADV ￥2,000 / DOOR ￥2,500<br>(ドリンク別)</li>
+		</ul>
+
+		<div data-role="collapsible">
+			<h3><p>出演バンド</p>BANDS</h3>
+			<ul>
+				<li>tam tam</li>
+				<li>yasei collective</li>
+				<li>DAMBO</li>
+				<li>emptye</li>
+				<li>Graphic Lag</li>
+			</ul>
+			<ul>
+				<li>レオニ (六階)</li>
+				<li>djago (Graphic Lag)</li>
+			</ul>
+		</div>
+
+		<div data-role="collapsible">
+			<h3><p>ご予約</p>TICKET RESERVE</h3>
+			<p>メールにてチケットご予約受付中。</p>
+			<a href="mailto:graphiclag@gmail.com" data-role="button">graphiclag@gmail.com</a>
+			<p>「お名前（フリガナ）」「ご予約希望枚数」を必ずご記入下さい。</p>
+		</div>
+
+	</div><!-- /content -->
+	</article>
+	
+	<?php include('footer.php'); ?>
+
+</div><!-- /page -->
+
+</body>
+</html>

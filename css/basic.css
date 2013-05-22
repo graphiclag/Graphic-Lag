@@ -1,0 +1,93 @@
+@charset 'utf-8';
+
+/* 
+==================================================
+ ■ YUI Font CSS (日本語対応)
+==================================================
+ */
+
+body {
+	font: 13px/1.231 'Lato',Helvetica,Verdana,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,"ＭＳ Ｐゴシック",sans-serif;
+	*font-size: small; /* for IE */
+	*font: x-small; /* for IE in quirks mode */
+}
+select, input, button, textarea {
+	font: 99% 'Lato',Helvetica,Verdana,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,"ＭＳ Ｐゴシック",sans-serif;
+}
+table {
+	font-size: inherit;
+	font: 100%;
+}
+pre, code, kbd, samp, tt {
+	font-family: monospace;
+	*font-size: 108%;
+	line-height: 100%;
+}
+/* 
+==================================================
+ ■ 特殊クラス
+==================================================
+ */
+
+.clearfix { zoom:1; }
+.clearfix:after{ content:""; display:block; clear:both; }
+
+.align_left   { float:left }
+.align_right  { float:right }
+.align_center { margin-left:auto; margin-right:auto; }
+
+.color_red  { color:rgb(255,64,64) }
+.color_blue { color:rgb(64,64,255) }
+.color_b { color:#4763C2; }
+.sub { font-size:80%; vertical-align:bottom; }
+
+.shadowBox {
+	background: #FFFFFF;
+	-webkit-box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+	-ms-box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+	-o-box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+	box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+	position: relative;
+	margin-bottom: 0.7em;
+}
+.shadowBox:before, .shadowBox:after {
+	content: '';
+	z-index: -1;
+	position: absolute;
+	bottom: 5px;
+	left: 5px;
+	height: 10px;
+	width: 70%;
+	max-width: 300px;
+	background: transparent;
+	-webkit-box-shadow: 0 10px 10px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0 10px 10px rgba(0,0,0,0.5);
+	-ms-box-shadow: 0 10px 10px rgba(0,0,0,0.5);
+	-o-box-shadow: 0 10px 10px rgba(0,0,0,0.5);
+	box-shadow: 0 10px 10px rgba(0,0,0,0.5);
+	-webkit-transform-origin: left top;
+	-moz-transform-origin: left top;
+	-ms-transform-origin: left top;
+	-o-transform-origin: left top;
+	transform-origin: left top;
+	-webkit-transform: rotate(-4deg);
+	-moz-transform: rotate(-4deg);
+	-ms-transform: rotate(-4deg);
+	-o-transform: rotate(-4deg);
+	transform: rotate(-4deg);
+}
+.shadowBox:after {
+	right: 5px;
+	left: auto;
+	-webkit-transform-origin: right top;
+	-moz-transform-origin: right top;
+	-ms-transform-origin: right top;
+	-o-transform-origin: right top;
+	transform-origin: right top;
+	-webkit-transform: rotate(4deg);
+	-moz-transform: rotate(4deg);
+	-ms-transform: rotate(4deg);
+	-o-transform: rotate(4deg);
+	transform: rotate(4deg);
+}

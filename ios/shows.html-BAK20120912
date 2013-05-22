@@ -1,0 +1,64 @@
+<?php include('header.php'); ?>
+
+	<!-- Page Setting -->
+	<title>SHOWS | www.graphiclag.com</title>
+
+</head> <!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<body>
+
+<div data-role="page" data-theme="c" id="shows">
+
+	<header data-role="header">
+		<h1>SHOWS</h1>
+		<a href="index.html" data-icon="home" data-direction="reverse" class="ui-btn-right">TOP</a>
+	</header><!-- /header -->
+
+	<div data-role="content">
+		<ul data-role="listview">
+			<li data-theme="b">
+				2012 April
+			</li>
+			<li>
+				<a href="show120421.html">
+				<h2>04.21.<span class="sub color-blue">SAT</span> Osaka ISM</h2>
+				<p class="showTitle">&ldquo;絶倫大人計画 vol.1 ～ゴム付けないのってエコじゃね!?～&rdquo;</p>
+				</a>
+			</li>
+			<li data-theme="b">
+				2012 May
+			</li>
+			<li>
+				<a href="show120519.html">
+				<h2>05.19.<span class="sub color-blue">SAT</span> Osaka CONPASS</h2>
+				<p class="showTitle">middle9 presents &ldquo;Room special pre event&rdquo;</p>
+				</a>
+			</li>
+			<li>
+				<a href="show120520.html">
+				<h2>05.20.<span class="sub color-red">SUN</span> Osaka club vijon</h2>
+				<p class="showTitle">ミケ presents &ldquo;真夜中ブレーメン&rdquo;</p>
+				</a>
+			</li>
+			<li data-theme="b">
+				2012 June
+			</li>
+			<li>
+				<a href="show120602.html">
+				<h2>06.02.<span class="sub color-blue">SAT</span> Osaka AtlantiQs</h2>
+				<p class="showTitle">ナチュラルキラーズ tour FINAL</p>
+				</a>
+			</li>
+			<li data-theme="a">
+				<a href="showspast.html">
+				PAST SHOWS
+				</a>
+			</li>
+		</ul>
+	</div><!-- /content -->
+	
+	<?php include('footer.php'); ?>
+
+</div><!-- /page -->
+
+</body>
+</html>

@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* 
+---------------------------------------------------------------------------------------------------- 
+�� YUI.css  | 11px: 85% | 21px:162% | 31px:235% | 41px:314% |
+| �t�H���g  | 12px: 93% | 22px:167% | 32px:244% | 42px:322% |
+| ���Ύw��  | 13px:100% | 23px:174% | 33px:251% | 43px:329% |
+| px��%�ϊ� | 14px:108% | 24px:182% | 34px:260% | 44px:337% |
+|-----------| 15px:116% | 25px:189% | 35px:267% | 45px:345% |
+| 06px: 45% | 16px:123% | 26px:197% | 36px:275% | 46px:351% |
+| 07px: 51% | 17px:131% | 27px:204% | 37px:283% | 47px:360% |
+| 08px: 60% | 18px:139% | 28px:213% | 38px:290% | 48px:368% |
+| 09px: 68% | 19px:147% | 29px:220% | 39px:298% | 49px:375% |
+| 10px: 77% | 20px:154% | 30px:228% | 40px:306% | 50px:383% |
+---------------------------------------------------------------------------------------------------- */
+
+#top_header {
+	margin: 2em 0 2em 0;
+	padding: 9px;
+	text-align: center;
+	border: 1px solid #CCC;
+}
+#top_header p {
+	text-align: center;
+}
+#top_header img {
+	width: 870px;
+	vertical-align: middle;
+}
+article {
+	padding-bottom: 180px;
+}
+article header {
+	border-bottom: 0;
+}
+article header p {
+	text-align: center;
+}
+#history {
+	width: 890px;
+}
+#history h2 {
+	width: 33.3%;
+}
+#history table {
+	font-size: 92%;
+	border-collapse: separate;
+	border-spacing: 0 0.5em;
+}
+#history table th {
+	padding: 0 0.5em 0 0;
+	text-align: left;
+	font-family: monospace;
+}
+#history table th:after {
+	content: ' :';
+}
+#history ul {
+}
+#history li {
+	line-height: 1.3em;
+	list-style:none;
+}
+#history li span[lang="ja"] {
+	color: #999;
+}
+#history li span[lang="ja"]:before {
+	content: ' (';
+}
+#history li span[lang="ja"]:after {
+	content: ') ';
+}

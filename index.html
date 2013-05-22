@@ -1,0 +1,76 @@
+<?php include('header.php'); ?>
+
+<!-- head (ページ個別適用) -->
+
+	<title>Graphic Lag Website</title>
+
+	<!-- ▼META Setting -->
+	<meta name="keywords" content="Graphi Lag,Band,Osaka,Instrumental,グラフィック ラグ,バンド,大阪,インスト">
+	<meta name="description" content="大阪で活動するインストゥルメンタル・バンド Graphic Lag のサイト トップページ / Entrance Page">
+
+	<!-- ▼LINK Setting -->
+	<link rel="next" href="about.html" title="次のページ">
+
+	<!-- ▼Additional CSS -->
+	<link rel="stylesheet" href="css/top.css" media="screen">
+	<link rel="stylesheet" href="css/coin-slider-styles.css" media="screen">
+	
+	
+	<script type="text/javascript" src="js/coin-slider.min.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function() {
+		$('#coin-slider').coinslider({
+			width: 870,
+			height: 560,
+			effect: 'straight',
+			navigation: true,
+			delay: 5000,
+			sDelay: 30,
+		});
+	});
+	</script>
+
+
+<!-- /head -->
+
+<?php include('menu.php'); ?>
+
+<article id="page_top">
+
+	<header id="top_header" class="shadowBox">
+	<!--[if lt IE 10]>
+		<h1 style="font-size: 300%" class="color_red">ATTENTION</h1>
+		<p><strong class="color_red">このサイトは、<a href="http://www.google.co.jp/chrome/intl/ja/landing_ff.html">Google Chrome</a>, <a href="http://mozilla.jp/firefox/">Firefox</a>, Safari
+			 いずれかでの表示のみ、正式対応しております。<br>
+			Internet Explorerをご利用の方は、使用するブラウザを上記いずれかに変更していただくか、<br>
+			<a href="http://code.google.com/intl/ja/chrome/chromeframe/">Chrome Frame Plug-in</a> (無料) をインストールして頂く事をお勧め致します。</strong>
+		</p>
+	<![endif]-->
+	
+	<div id="coin-slider">
+		<img src="img/topphoto.jpg" >
+	</div>
+	
+	</header>
+
+	<section id="history">
+	<h2 lang="en">Update Information<span lang="ja">更新情報</span></h2>
+	<table>
+	<tr>
+	 <th>2013.05.22 WED</th>
+	 <td><ul>
+	  <li><a href="shows.html">SHOWS</a> up</li>
+	 </ul><td>
+	</tr>
+	<tr>
+	 <th>2013.03.02 <span class="color_blue">SAT</span></th>
+	 <td><ul>
+	  <li><strong>バンドよりお知らせ</strong> (<a href="news.html">NEWS</a>) up</li>
+	 </ul><td>
+	</tr>
+	</table>
+	</section>
+
+</article>
+
+<?php include('footer.php'); ?>

@@ -1,0 +1,201 @@
+@charset "utf-8";
+/* 
+---------------------------------------------------------------------------------------------------- 
+■ YUI.css  | 11px: 85% | 21px:162% | 31px:235% | 41px:314% |
+| フォント  | 12px: 93% | 22px:167% | 32px:244% | 42px:322% |
+| 相対指定  | 13px:100% | 23px:174% | 33px:251% | 43px:329% |
+| px→%変換 | 14px:108% | 24px:182% | 34px:260% | 44px:337% |
+|-----------| 15px:116% | 25px:189% | 35px:267% | 45px:345% |
+| 06px: 45% | 16px:123% | 26px:197% | 36px:275% | 46px:351% |
+| 07px: 51% | 17px:131% | 27px:204% | 37px:283% | 47px:360% |
+| 08px: 60% | 18px:139% | 28px:213% | 38px:290% | 48px:368% |
+| 09px: 68% | 19px:147% | 29px:220% | 39px:298% | 49px:375% |
+| 10px: 77% | 20px:154% | 30px:228% | 40px:306% | 50px:383% |
+---------------------------------------------------------------------------------------------------- 
+*/
+body>div[data-role="page"] {
+	background: url(../../img/bg_texture.jpg) !important;
+}
+a:link {
+	text-decoration: none;
+}
+ul {
+	margin-left: 15px;
+}
+p,li {
+	line-height: 1.5em;
+	text-align: justify;
+	text-justify: inter-ideograph;
+}
+h2 {
+	margin-bottom: 0.8em;
+}
+
+article section {
+	margin-bottom: 40px;
+}
+
+/* -------------------- HEADER -------------------- */
+
+
+/* -------------------- TOP -------------------- */
+
+
+#home article header {
+	text-align: center;
+}
+#home article header img {
+	width: 100%;
+	max-width: 320px;
+	margin: -20px auto 1.5em auto;
+}
+
+#topics img {
+	width: 100%;
+}
+
+#upinfo {
+	margin-bottom: 10px;
+}
+#upinfo ul {
+	margin: 10px 3px 0 3px;
+	font-size: 80%;
+	list-style: none;
+}
+#upinfo li {
+	position: relative;
+	line-height: 1.2em;
+	padding: 0.5em 3.5em 0.5em 0;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #ccc;
+}
+#upinfo li span {
+	position: absolute;
+	bottom: 0.5em;
+	right: 0px;
+	font-size: 80%;
+	font-family: monospace;
+	opacity: 0.8;
+}
+#upinfo li:first-child {
+	border-top: none;
+}
+#upinfo li:last-child {
+	padding-right: 0;
+	text-align: right;
+	border-bottom: none;
+}
+#upinfoLog li {
+	font-size: 80%;
+	padding-right: 3.5em;
+	font-weight: normal;
+}
+#upinfoLog li span {
+	position: absolute;
+	bottom: 0.7em;
+	right: 15px;
+	font-size: 80%;
+	opacity: 0.8;
+}
+#topLinks {
+	margin-right: -4%;
+}
+#topLinks a img {
+	width: 48%;
+}
+
+/* -------------------- ABOUT -------------------- */
+
+#profile_band {
+	margin-bottom: 1em;
+}
+#profile_band img {
+	margin-right: 0.5em;
+	width: 100%;
+	max-width: 320px;
+	float: left;
+}
+#profile_member h3 p {
+	float: right;
+	margin-right: -10px;
+	font-size: 80%;
+	font-weight: normal;
+	opacity: 0.5;
+}
+
+#profile_member footer a {
+	float: right;
+}
+
+/* -------------------- NEWS -------------------- */
+
+#news ul {
+	margin: 10px 3px 0 3px;
+	list-style: none;
+}
+#news li {
+	position: relative;
+	line-height: 1.2em;
+	padding: 0.5em 0 0.5em 0;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #ccc;
+}
+#news li:first-child {
+	border-top: none;
+}
+#news li:last-child {
+	border-bottom: none;
+}
+#news h2 {
+	margin-bottom: 0;
+}
+#news p {
+	margin-bottom: 0.8em;
+}
+#news p.newsOption {
+	font-size: 70%;
+	text-align: right;
+	opacity: 0.5;
+}
+
+/* -------------------- SHOWS -------------------- */
+
+.showTitle {
+	font-weight: bold;
+}
+.show article div img {
+	float: left;
+	width: 35%;
+	margin-right: 0.5em;
+}
+.show h3 p {
+	float: right;
+	margin-right: -10px;
+	font-size: 80%;
+	font-weight: normal;
+	opacity: 0.5;
+}
+
+/* -------------------- MUSIC -------------------- */
+
+#music p {
+	margin-bottom: 0.8em;
+}
+
+/* -------------------- FOOTER -------------------- */
+
+body>div>footer {
+	padding: 15px;
+	background: #fff;
+	text-align: center;
+}
+body>div>footer p {
+	margin-bottom: 1.5em;
+	font-size: 80%;
+	line-height: 1em;
+}
+
+body>div>footer .ui-grid-a div a {
+	padding: 10px;
+}
+
